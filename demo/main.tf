@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "ec2_instance" {
-  source  = "/home/siva/Documents/ec2-module/module"
+  source  = "https://github.com/Sivasankar4/ec2-module/tree/main/module"
 
   count = 2
 
